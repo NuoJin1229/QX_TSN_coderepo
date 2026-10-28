@@ -93,6 +93,16 @@ module fp_merge_rx #(
                                 if (e_full) begin
                                     packet_bad <= 1; rx_overruns <= rx_overruns + 1'b1;
                                 end
+                            end else if (start_symbol[2] && pre_count == 7 && pmac_enable) begin
+                                packet_p <= 1;
+                                // A fresh start resynchronizes an abandoned partial frame.
+                                if (p_pending) rx_errors <= rx_errors + 1'b1;
+                                p_pending <= 0; frame_no <= start_symbol[1:0];
+                                expected_frag <= 0;
+                                state <= p_full ? DROP : PAYLOAD;
+                                if (p_full) begin
+                                    packet_bad <= 1; rx_overruns <= rx_overruns + 1'b1;
+                                end
                             end else begin
                                 state <= DROP; packet_bad <= 1;
                                 // Unknown/missing SMD cannot safely retain a partial context.
@@ -121,10 +131,17 @@ module fp_merge_rx #(
                     if (packet_p) p_pending <= 0;
                 end else if (tail == normal_fcs) begin
                     // Commit FCS only for a validated final frame. No partial delivery.
+                    if (packet_p) begin
+                        p_mem[p_write_slot*MAX_FRAME_BYTES+work_len] <= tail[7:0]; p_mem[p_write_slot*MAX_FRAME_BYTES+work_len+1] <= tail[15:8];
+                        p_mem[p_write_slot*MAX_FRAME_BYTES+work_len+2] <= tail[23:16]; p_mem[p_write_slot*MAX_FRAME_BYTES+work_len+3] <= tail[31:24];
+                        p_len[p_write_slot] <= work_len + 16'd4; p_committed[p_write_slot] <= 1; p_write_slot <= !p_write_slot; p_pending <= 0;
+                        rx_p_frames <= rx_p_frames + 1'b1;
+                    end else begin
                         e_mem[e_write_slot*MAX_FRAME_BYTES+work_len] <= tail[7:0]; e_mem[e_write_slot*MAX_FRAME_BYTES+work_len+1] <= tail[15:8];
                         e_mem[e_write_slot*MAX_FRAME_BYTES+work_len+2] <= tail[23:16]; e_mem[e_write_slot*MAX_FRAME_BYTES+work_len+3] <= tail[31:24];
                         e_len[e_write_slot] <= work_len + 16'd4; e_committed[e_write_slot] <= 1; e_write_slot <= !e_write_slot;
                         rx_e_frames <= rx_e_frames + 1'b1;
+                    end
                 end else begin
                     rx_errors <= rx_errors + 1'b1;
                     if (packet_p) p_pending <= 0;
