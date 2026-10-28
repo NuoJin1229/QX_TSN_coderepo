@@ -129,6 +129,9 @@ module fp_merge_rx #(
                 if (state != PAYLOAD || packet_bad || tail_count != 4 || packet_bytes < 64) begin
                     rx_errors <= rx_errors + 1'b1;
                     if (packet_p) p_pending <= 0;
+                end else if (packet_p && is_mcrc) begin
+                    saved_crc <= work_crc; saved_len <= work_len; p_pending <= 1;
+                    rx_fragments <= rx_fragments + 1'b1;
                 end else if (tail == normal_fcs) begin
                     // Commit FCS only for a validated final frame. No partial delivery.
                     if (packet_p) begin
