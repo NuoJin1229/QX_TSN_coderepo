@@ -37,3 +37,29 @@ function [7:0] fp_smd_cont;
     end
 endfunction
 
+// Bit 2 marks a valid symbol, bits 1:0 are the decoded number.
+function [2:0] fp_decode_start;
+    input [7:0] b;
+    begin
+        case (b)
+            8'he6: fp_decode_start = 3'b100;
+            8'h4c: fp_decode_start = 3'b101;
+            8'h7f: fp_decode_start = 3'b110;
+            8'hb3: fp_decode_start = 3'b111;
+            default: fp_decode_start = 0;
+        endcase
+    end
+endfunction
+
+function [2:0] fp_decode_cont;
+    input [7:0] b;
+    begin
+        case (b)
+            8'h61: fp_decode_cont = 3'b100;
+            8'h52: fp_decode_cont = 3'b101;
+            8'h9e: fp_decode_cont = 3'b110;
+            8'had: fp_decode_cont = 3'b111;
+            default: fp_decode_cont = 0;
+        endcase
+    end
+endfunction
