@@ -94,7 +94,7 @@ module fp_merge_tx #(
                         selected_p <= 1; frag_bytes <= 0;
                         if (!p_started) begin
                             pos <= 0; p_crc <= 32'hffffffff;
-                            p_encoded <= 0;
+                            p_encoded <= tx_active;
                             min_data <= 16'd60 + {8'b0,add_frag_size,6'b0};
                             continuation <= 0; frag_no <= 0; pre_left <= 7;
                             p_started <= 1;
@@ -109,7 +109,8 @@ module fp_merge_tx #(
                 end
                 DELIM: begin
                     gmii_tx_en <= 1;
-                    gmii_txd <= 8'hd5;
+                    gmii_txd <= !selected_p || !p_encoded ? 8'hd5 :
+                                fp_smd_start(frame_no);
                     state <= DATA;
                 end
                 DATA: begin
