@@ -3,6 +3,7 @@
 module fp_mac_capture (
     input wire clk, rst,
     input wire [7:0] mac_data, input wire mac_en,
+    output wire frame_grant,
     output wire [7:0] out_data,
     output wire out_valid, out_last, out_abort,
     input wire out_ready
@@ -11,6 +12,7 @@ module fp_mac_capture (
     reg [3:0] pre_count;
     reg [7:0] last_data;
     reg header_done;
+    assign frame_grant = !active && !pending && out_ready;
     assign out_data = last_data;
     assign out_valid = pending && header_done && !bad && (mac_en || active);
     assign out_last = out_valid && !mac_en;
