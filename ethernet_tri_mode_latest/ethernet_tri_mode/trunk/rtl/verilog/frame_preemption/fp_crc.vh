@@ -13,3 +13,27 @@ function [31:0] fp_crc32_byte;
     end
 endfunction
 
+function [7:0] fp_smd_start;
+    input [1:0] n;
+    begin
+        case (n)
+            0: fp_smd_start = 8'he6;
+            1: fp_smd_start = 8'h4c;
+            2: fp_smd_start = 8'h7f;
+            3: fp_smd_start = 8'hb3;
+        endcase
+    end
+endfunction
+
+function [7:0] fp_smd_cont;
+    input [1:0] n;
+    begin
+        case (n)
+            0: fp_smd_cont = 8'h61;
+            1: fp_smd_cont = 8'h52;
+            2: fp_smd_cont = 8'h9e;
+            3: fp_smd_cont = 8'had;
+        endcase
+    end
+endfunction
+
