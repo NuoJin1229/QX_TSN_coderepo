@@ -51,6 +51,12 @@ module fp_merge_tx #(
             p_crc <= 32'hffffffff; mcrc <= 0;
             tx_e_frames <= 0; tx_p_frames <= 0;
             tx_fragments <= 0; tx_input_errors <= 0;
+        end else if (!link_up) begin
+            // Link loss invalidates complete and partial frames and sequence context.
+            state <= IDLE; gmii_tx_en <= 0; gmii_txd <= 0;
+            e_full <= 0; p_full <= 0; e_bad <= 0; p_bad <= 0;
+            e_wr <= 0; p_wr <= 0; p_started <= 0;
+            frame_no <= 0; frag_no <= 0;
         end else begin
             // Keep ready asserted while draining an oversized input until LAST.
             // Simultaneous e/p failures are counted separately.
