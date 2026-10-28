@@ -283,7 +283,7 @@ always @ (*)
                     Next_state=StateDefer;
                 else if (pause_apply)
                     Next_state=StatePause;          
-                else if ((FullDuplex&&Fifo_ra)||(!FullDuplex&&!CRS&&Fifo_ra)||(pause_frame_send_en_dl1&&(xoff_gen||xon_gen)))
+                else if ((!FRAME_GRANT_ENABLE || frame_grant) && ((FullDuplex&&Fifo_ra)||(!FullDuplex&&!CRS&&Fifo_ra)||(pause_frame_send_en_dl1&&(xoff_gen||xon_gen))))
                     Next_state=StatePreamble;
                 else
                     Next_state=Current_state;   
