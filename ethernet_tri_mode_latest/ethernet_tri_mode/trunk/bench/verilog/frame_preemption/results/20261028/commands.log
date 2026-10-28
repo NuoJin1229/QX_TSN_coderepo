@@ -1,0 +1,526 @@
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\iverilog.exe -V
+Icarus Verilog version 10.1 (stable) ()
+
+Copyright 1998-2015 Stephen Williams
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+Icarus Verilog Preprocessor version 10.1 (stable) ()
+
+Copyright (c) 1999-2011,2015 Stephen Williams (steve@icarus.com)
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+Icarus Verilog Parser/Elaborator version 10.1 (stable) ()
+
+Copyright (c) 1998-2015 Stephen Williams (steve@icarus.com)
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+ FLAGS DLL vvp.tgt
+vvp.tgt: Icarus Verilog VVP Code Generator 10.1 (stable) ()
+
+Copyright (c) 2001-2015 Stephen Williams (steve@icarus.com)
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\vvp.exe -V
+Icarus Verilog runtime version 10.1 (stable) ()
+
+Copyright 1998-2015 Stephen Williams
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\iverilog.exe -g2012 -Wall -I C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src -s tb_fp_merge -o C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\tb_fp_merge.vvp C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\header.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Clk_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Phy_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\afifo.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_addr_add.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_Ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Ramdon_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\flow_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Broadcast_filter.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_add_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_addr_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_dpram.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_clockgen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_outputcontrol.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_mac_capture.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_reset_sync.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_rx_replay.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_SWITCH.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_DIV2.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_sim_duram.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\tb_fp_merge.sv
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v:109: warning: implicit definition of wire 'RxAddrb'.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v:110: warning: implicit definition of wire 'TxAddrb'.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: warning: Some modules have no timescale. This may cause
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        : confusing timing results.  Affected modules are:
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module Clk_ctrl declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Clk_ctrl.v:50
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_rx declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx.v:52
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_top declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v:53
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_top_fp declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v:56
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_tx declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx.v:52
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module Phy_int declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Phy_int.v:53
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module RMON declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v:53
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module afifo declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\afifo.v:1
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:464: warning: implicit definition of wire 'MdcEn_n'.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:1: warning: timescale for Reg_int inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:147: warning: timescale for RegCPUData inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_gen.v:50: warning: timescale for CRC_gen inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_addr_add.v:50: warning: timescale for MAC_tx_addr_add inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_Ctrl.v:56: warning: timescale for MAC_tx_ctrl inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_FF.v:59: warning: timescale for MAC_tx_FF inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Ramdon_gen.v:50: warning: timescale for Ramdon_gen inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\flow_ctrl.v:50: warning: timescale for flow_ctrl inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Broadcast_filter.v:50: warning: timescale for Broadcast_filter inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_chk.v:50: warning: timescale for CRC_chk inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_add_chk.v:50: warning: timescale for MAC_rx_add_chk inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_ctrl.v:56: warning: timescale for MAC_rx_ctrl inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_FF.v:65: warning: timescale for MAC_rx_FF inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_addr_gen.v:52: warning: timescale for RMON_addr_gen inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_ctrl.v:52: warning: timescale for RMON_CTRL inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_dpram.v:1: warning: timescale for RMON_dpram inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_mac_capture.v:3: warning: timescale for fp_mac_capture inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:3: warning: timescale for fp_merge_tx inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:3: warning: timescale for fp_merge_rx inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_reset_sync.v:2: warning: timescale for fp_reset_sync inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_rx_replay.v:3: warning: timescale for fp_rx_replay inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_SWITCH.v:55: warning: timescale for CLK_SWITCH inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_DIV2.v:56: warning: timescale for CLK_DIV2 inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_sim_duram.v:4: warning: timescale for duram inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:16: warning: Port declaration of busy inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:6: warning: Port declaration of clk inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:9: warning: Port declaration of e_abort inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:9: warning: Port declaration of e_last inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:10: warning: Port declaration of e_ready inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:9: warning: Port declaration of e_valid inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:7: warning: Port declaration of force_mode inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:14: warning: Port declaration of gmii_tx_en inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:7: warning: Port declaration of hold_req inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:6: warning: Port declaration of link_up inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:11: warning: Port declaration of p_abort inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:11: warning: Port declaration of p_last inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:12: warning: Port declaration of p_ready inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:11: warning: Port declaration of p_valid inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:6: warning: Port declaration of rst inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:15: warning: Port declaration of tx_active inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:7: warning: Port declaration of tx_enable inherits dimensions from var/net.
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\vvp.exe C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\tb_fp_merge.vvp +VECTORS=C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\tx.mem +TRACE=C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\tx.trace +COUNT=7180
+PASS TX e=12 p=14 fragments=11 input_errors=3
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\iverilog.exe -g2012 -Wall -I C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src -s tb_fp_edges -o C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\tb_fp_edges.vvp C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\header.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Clk_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Phy_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\afifo.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_addr_add.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_Ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Ramdon_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\flow_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Broadcast_filter.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_add_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_addr_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_dpram.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_clockgen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_outputcontrol.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_mac_capture.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_reset_sync.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_rx_replay.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_SWITCH.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_DIV2.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_sim_duram.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\tb_fp_edges.sv
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v:109: warning: implicit definition of wire 'RxAddrb'.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v:110: warning: implicit definition of wire 'TxAddrb'.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: warning: Some modules have no timescale. This may cause
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        : confusing timing results.  Affected modules are:
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module Clk_ctrl declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Clk_ctrl.v:50
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_rx declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx.v:52
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_top declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v:53
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_top_fp declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v:56
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_tx declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx.v:52
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module Phy_int declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Phy_int.v:53
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module RMON declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v:53
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module afifo declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\afifo.v:1
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:464: warning: implicit definition of wire 'MdcEn_n'.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:1: warning: timescale for Reg_int inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:147: warning: timescale for RegCPUData inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_gen.v:50: warning: timescale for CRC_gen inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_addr_add.v:50: warning: timescale for MAC_tx_addr_add inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_Ctrl.v:56: warning: timescale for MAC_tx_ctrl inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_FF.v:59: warning: timescale for MAC_tx_FF inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Ramdon_gen.v:50: warning: timescale for Ramdon_gen inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\flow_ctrl.v:50: warning: timescale for flow_ctrl inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Broadcast_filter.v:50: warning: timescale for Broadcast_filter inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_chk.v:50: warning: timescale for CRC_chk inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_add_chk.v:50: warning: timescale for MAC_rx_add_chk inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_ctrl.v:56: warning: timescale for MAC_rx_ctrl inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_FF.v:65: warning: timescale for MAC_rx_FF inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_addr_gen.v:52: warning: timescale for RMON_addr_gen inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_ctrl.v:52: warning: timescale for RMON_CTRL inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_dpram.v:1: warning: timescale for RMON_dpram inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_mac_capture.v:3: warning: timescale for fp_mac_capture inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:3: warning: timescale for fp_merge_tx inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:3: warning: timescale for fp_merge_rx inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_reset_sync.v:2: warning: timescale for fp_reset_sync inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_rx_replay.v:3: warning: timescale for fp_rx_replay inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_SWITCH.v:55: warning: timescale for CLK_SWITCH inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_DIV2.v:56: warning: timescale for CLK_DIV2 inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_sim_duram.v:4: warning: timescale for duram inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:16: warning: Port declaration of busy inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:6: warning: Port declaration of clk inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:9: warning: Port declaration of e_abort inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:9: warning: Port declaration of e_last inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:10: warning: Port declaration of e_ready inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:9: warning: Port declaration of e_valid inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:7: warning: Port declaration of force_mode inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:14: warning: Port declaration of gmii_tx_en inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:7: warning: Port declaration of hold_req inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:6: warning: Port declaration of link_up inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:11: warning: Port declaration of p_abort inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:11: warning: Port declaration of p_last inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:12: warning: Port declaration of p_ready inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:11: warning: Port declaration of p_valid inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:6: warning: Port declaration of rst inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:15: warning: Port declaration of tx_active inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:7: warning: Port declaration of tx_enable inherits dimensions from var/net.
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\vvp.exe C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\tb_fp_edges.vvp +VECTORS=C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\edge.mem +TRACE=C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\edge.trace +COUNT=5917
+PASS EDGES frames=10 fragments=4 errors=3 boundaries=8 link_reset=2
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\iverilog.exe -g2012 -Wall -I C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src -s tb_fp_rx -o C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\tb_fp_rx.vvp C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\header.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Clk_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Phy_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\afifo.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_addr_add.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_Ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Ramdon_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\flow_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Broadcast_filter.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_add_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_addr_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_dpram.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_clockgen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_outputcontrol.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_mac_capture.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_reset_sync.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_rx_replay.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_SWITCH.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_DIV2.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_sim_duram.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\tb_fp_rx.sv
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v:109: warning: implicit definition of wire 'RxAddrb'.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v:110: warning: implicit definition of wire 'TxAddrb'.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: warning: Some modules have no timescale. This may cause
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        : confusing timing results.  Affected modules are:
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module Clk_ctrl declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Clk_ctrl.v:50
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_rx declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx.v:52
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_top declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v:53
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_top_fp declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v:56
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module MAC_tx declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx.v:52
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module Phy_int declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Phy_int.v:53
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module RMON declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v:53
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98:        :   -- module afifo declared here: C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\afifo.v:1
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:464: warning: implicit definition of wire 'MdcEn_n'.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:1: warning: timescale for Reg_int inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:147: warning: timescale for RegCPUData inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_gen.v:50: warning: timescale for CRC_gen inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_addr_add.v:50: warning: timescale for MAC_tx_addr_add inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_Ctrl.v:56: warning: timescale for MAC_tx_ctrl inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_FF.v:59: warning: timescale for MAC_tx_FF inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Ramdon_gen.v:50: warning: timescale for Ramdon_gen inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\flow_ctrl.v:50: warning: timescale for flow_ctrl inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Broadcast_filter.v:50: warning: timescale for Broadcast_filter inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_chk.v:50: warning: timescale for CRC_chk inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_add_chk.v:50: warning: timescale for MAC_rx_add_chk inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_ctrl.v:56: warning: timescale for MAC_rx_ctrl inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_FF.v:65: warning: timescale for MAC_rx_FF inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_addr_gen.v:52: warning: timescale for RMON_addr_gen inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_ctrl.v:52: warning: timescale for RMON_CTRL inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_dpram.v:1: warning: timescale for RMON_dpram inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v:98: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_mac_capture.v:3: warning: timescale for fp_mac_capture inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v:3: warning: timescale for fp_merge_tx inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:3: warning: timescale for fp_merge_rx inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_reset_sync.v:2: warning: timescale for fp_reset_sync inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_rx_replay.v:3: warning: timescale for fp_rx_replay inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_SWITCH.v:55: warning: timescale for CLK_SWITCH inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_DIV2.v:56: warning: timescale for CLK_DIV2 inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_sim_duram.v:4: warning: timescale for duram inherited from another file.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v:84: ...: The inherited timescale is here.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:12: warning: Port declaration of busy inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:6: warning: Port declaration of clk inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:8: warning: Port declaration of gmii_rx_dv inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:8: warning: Port declaration of gmii_rx_er inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:6: warning: Port declaration of link_up inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:10: warning: Port declaration of out_last inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:10: warning: Port declaration of out_preemptable inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:11: warning: Port declaration of out_ready inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:10: warning: Port declaration of out_sop inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:10: warning: Port declaration of out_valid inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:6: warning: Port declaration of pmac_enable inherits dimensions from var/net.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v:6: warning: Port declaration of rst inherits dimensions from var/net.
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\vvp.exe C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\tb_fp_rx.vvp +VECTORS=C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\rx.mem +TRACE=C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\rx.trace +COUNT=32094
+PASS RX e=67 p=6 fragments=37 errors=15 overruns=1
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\iverilog.exe -g2012 -I C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src -s MAC_top -o C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\MAC_top.vvp C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\header.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Clk_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Phy_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\afifo.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_addr_add.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_Ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Ramdon_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\flow_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Broadcast_filter.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_add_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_addr_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_dpram.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_clockgen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_outputcontrol.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_mac_capture.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_reset_sync.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_rx_replay.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_SWITCH.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_DIV2.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_sim_duram.v
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v:301: warning: Port 1 (din) of afifo expects 16 bits, got 32.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v:301:        : Pruning 16 high bits of the expression.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:65: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:65:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:66: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:66:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:67: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:67:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:69: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:69:        : Padding 10 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:70: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:70:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:71: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 4.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:71:        : Padding 12 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:72: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:72:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:73: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 8.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:73:        : Padding 8 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:74: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:74:        : Padding 13 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:75: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:75:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:76: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:76:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:77: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:77:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:78: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:78:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:79: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:79:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:80: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 8.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:80:        : Padding 8 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:81: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:81:        : Padding 13 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:82: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:82:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:83: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:83:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:86: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:86:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:87: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:87:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:88: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:88:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:89: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:89:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:90: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:90:        : Padding 10 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:92: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 7.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:92:        : Padding 9 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:93: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:93:        : Padding 10 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:94: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:94:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:98: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:98:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:99: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:99:        : Padding 13 high bits of the port.
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\iverilog.exe -g2012 -I C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src -s MAC_top_fp -o C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\MAC_top_fp.vvp C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\header.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Clk_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Phy_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\afifo.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_addr_add.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_Ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Ramdon_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\flow_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Broadcast_filter.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_add_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_addr_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_dpram.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_clockgen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_outputcontrol.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_mac_capture.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_reset_sync.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_rx_replay.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_SWITCH.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_DIV2.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_sim_duram.v
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v:420: warning: Port 1 (din) of afifo expects 16 bits, got 32.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v:420:        : Pruning 16 high bits of the expression.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:65: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:65:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:66: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:66:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:67: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:67:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:69: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:69:        : Padding 10 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:70: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:70:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:71: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 4.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:71:        : Padding 12 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:72: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:72:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:73: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 8.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:73:        : Padding 8 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:74: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:74:        : Padding 13 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:75: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:75:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:76: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:76:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:77: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:77:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:78: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:78:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:79: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:79:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:80: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 8.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:80:        : Padding 8 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:81: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:81:        : Padding 13 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:82: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:82:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:83: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:83:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:86: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:86:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:87: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:87:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:88: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:88:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:89: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:89:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:90: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:90:        : Padding 10 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:92: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 7.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:92:        : Padding 9 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:93: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:93:        : Padding 10 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:94: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:94:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:98: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:98:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:99: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:99:        : Padding 13 high bits of the port.
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\iverilog.exe -g2012 -I C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src -s tb_fp_top -o C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\tb_fp_top.vvp C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\header.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Clk_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Phy_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\afifo.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_miim.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_addr_add.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_Ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_tx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Ramdon_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\flow_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\Broadcast_filter.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CRC_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_add_chk.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_rx_FF.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_addr_gen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_ctrl.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\RMON_dpram.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_clockgen.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_outputcontrol.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\eth_shiftreg.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_mac_capture.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_tx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_merge_rx.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_reset_sync.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_rx_replay.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_SWITCH.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\CLK_DIV2.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\fp_sim_duram.v C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\tb_fp_top.sv
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v:420: warning: Port 1 (din) of afifo expects 16 bits, got 32.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\MAC_top_fp.v:420:        : Pruning 16 high bits of the expression.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:65: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:65:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:66: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:66:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:67: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:67:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:69: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:69:        : Padding 10 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:70: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:70:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:71: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 4.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:71:        : Padding 12 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:72: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:72:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:73: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 8.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:73:        : Padding 8 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:74: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:74:        : Padding 13 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:75: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:75:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:76: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:76:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:77: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:77:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:78: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:78:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:79: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:79:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:80: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 8.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:80:        : Padding 8 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:81: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:81:        : Padding 13 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:82: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:82:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:83: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:83:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:86: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:86:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:87: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:87:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:88: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:88:        : Padding 11 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:89: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:89:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:90: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:90:        : Padding 10 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:92: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 7.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:92:        : Padding 9 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:93: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:93:        : Padding 10 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:94: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:94:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:98: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:98:        : Padding 15 high bits of the port.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:99: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\src\reg_int.v:99:        : Padding 13 high bits of the port.
+
+C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\vvp.exe C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\tb_fp_top.vvp +VECTORS=C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\top.mem +TRACE=C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\top.trace +WIRE=C:\Users\Nuojin Song\AppData\Local\Temp\tsn_fp_regression_20261028i\top_wire.trace +COUNT=1242
+LENGTH 61
+LENGTH 996
+LENGTH 62
+LENGTH 63
+LENGTH 60
+PASS TOP frames=5 tx_fragments=1 rx_fragments=1 words=312 lengths=5
+

@@ -1,0 +1,122 @@
+cwd: C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_regression_20261028i\native_tree
+command: C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\iverilog.exe -g2012 -s MAC_top -o C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_regression_20261028i\native_MAC_top.vvp -f rtl/verilog/frame_preemption/fp_sim.f
+rtl/verilog/MAC_top.v:301: warning: Port 1 (din) of afifo expects 16 bits, got 32.
+rtl/verilog/MAC_top.v:301:        : Pruning 16 high bits of the expression.
+rtl/verilog/reg_int.v:65: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+rtl/verilog/reg_int.v:65:        : Padding 11 high bits of the port.
+rtl/verilog/reg_int.v:66: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+rtl/verilog/reg_int.v:66:        : Padding 11 high bits of the port.
+rtl/verilog/reg_int.v:67: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:67:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:69: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+rtl/verilog/reg_int.v:69:        : Padding 10 high bits of the port.
+rtl/verilog/reg_int.v:70: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:70:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:71: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 4.
+rtl/verilog/reg_int.v:71:        : Padding 12 high bits of the port.
+rtl/verilog/reg_int.v:72: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:72:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:73: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 8.
+rtl/verilog/reg_int.v:73:        : Padding 8 high bits of the port.
+rtl/verilog/reg_int.v:74: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+rtl/verilog/reg_int.v:74:        : Padding 13 high bits of the port.
+rtl/verilog/reg_int.v:75: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:75:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:76: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:76:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:77: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:77:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:78: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:78:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:79: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:79:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:80: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 8.
+rtl/verilog/reg_int.v:80:        : Padding 8 high bits of the port.
+rtl/verilog/reg_int.v:81: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+rtl/verilog/reg_int.v:81:        : Padding 13 high bits of the port.
+rtl/verilog/reg_int.v:82: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:82:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:83: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:83:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:86: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:86:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:87: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+rtl/verilog/reg_int.v:87:        : Padding 11 high bits of the port.
+rtl/verilog/reg_int.v:88: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+rtl/verilog/reg_int.v:88:        : Padding 11 high bits of the port.
+rtl/verilog/reg_int.v:89: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:89:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:90: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+rtl/verilog/reg_int.v:90:        : Padding 10 high bits of the port.
+rtl/verilog/reg_int.v:92: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 7.
+rtl/verilog/reg_int.v:92:        : Padding 9 high bits of the port.
+rtl/verilog/reg_int.v:93: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+rtl/verilog/reg_int.v:93:        : Padding 10 high bits of the port.
+rtl/verilog/reg_int.v:94: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:94:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:98: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:98:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:99: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+rtl/verilog/reg_int.v:99:        : Padding 13 high bits of the port.
+
+
+cwd: C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_regression_20261028i\native_tree
+command: C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_tools_20261028\bin\iverilog.exe -g2012 -s MAC_top_fp -o C:\Users\NUOJIN~1\AppData\Local\Temp\tsn_fp_regression_20261028i\native_MAC_top_fp.vvp -f rtl/verilog/frame_preemption/fp_sim.f
+rtl/verilog/MAC_top_fp.v:420: warning: Port 1 (din) of afifo expects 16 bits, got 32.
+rtl/verilog/MAC_top_fp.v:420:        : Pruning 16 high bits of the expression.
+rtl/verilog/reg_int.v:65: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+rtl/verilog/reg_int.v:65:        : Padding 11 high bits of the port.
+rtl/verilog/reg_int.v:66: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+rtl/verilog/reg_int.v:66:        : Padding 11 high bits of the port.
+rtl/verilog/reg_int.v:67: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:67:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:69: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+rtl/verilog/reg_int.v:69:        : Padding 10 high bits of the port.
+rtl/verilog/reg_int.v:70: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:70:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:71: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 4.
+rtl/verilog/reg_int.v:71:        : Padding 12 high bits of the port.
+rtl/verilog/reg_int.v:72: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:72:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:73: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 8.
+rtl/verilog/reg_int.v:73:        : Padding 8 high bits of the port.
+rtl/verilog/reg_int.v:74: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+rtl/verilog/reg_int.v:74:        : Padding 13 high bits of the port.
+rtl/verilog/reg_int.v:75: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:75:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:76: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:76:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:77: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:77:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:78: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:78:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:79: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:79:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:80: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 8.
+rtl/verilog/reg_int.v:80:        : Padding 8 high bits of the port.
+rtl/verilog/reg_int.v:81: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+rtl/verilog/reg_int.v:81:        : Padding 13 high bits of the port.
+rtl/verilog/reg_int.v:82: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:82:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:83: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:83:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:86: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:86:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:87: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+rtl/verilog/reg_int.v:87:        : Padding 11 high bits of the port.
+rtl/verilog/reg_int.v:88: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 5.
+rtl/verilog/reg_int.v:88:        : Padding 11 high bits of the port.
+rtl/verilog/reg_int.v:89: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:89:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:90: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+rtl/verilog/reg_int.v:90:        : Padding 10 high bits of the port.
+rtl/verilog/reg_int.v:92: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 7.
+rtl/verilog/reg_int.v:92:        : Padding 9 high bits of the port.
+rtl/verilog/reg_int.v:93: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 6.
+rtl/verilog/reg_int.v:93:        : Padding 10 high bits of the port.
+rtl/verilog/reg_int.v:94: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:94:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:98: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 1.
+rtl/verilog/reg_int.v:98:        : Padding 15 high bits of the port.
+rtl/verilog/reg_int.v:99: warning: Port 1 (RegOut) of RegCPUData expects 16 bits, got 3.
+rtl/verilog/reg_int.v:99:        : Padding 13 high bits of the port.

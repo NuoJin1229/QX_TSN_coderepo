@@ -1,0 +1,37 @@
+{
+  "completed_utc": "2026-10-28T08:09:14.536980+00:00",
+  "hashed_source_files": 45,
+  "scope": "literal nested .f elaboration from ASCII copy of the identical hashed sources; no synthesis or functional legacy regression",
+  "checks": [
+    {
+      "top": "MAC_top",
+      "returncode": 0,
+      "success": true,
+      "command": [
+        "C:\\Users\\NUOJIN~1\\AppData\\Local\\Temp\\tsn_fp_tools_20261028\\bin\\iverilog.exe",
+        "-g2012",
+        "-s",
+        "MAC_top",
+        "-o",
+        "C:\\Users\\NUOJIN~1\\AppData\\Local\\Temp\\tsn_fp_regression_20261028i\\native_MAC_top.vvp",
+        "-f",
+        "rtl/verilog/frame_preemption/fp_sim.f"
+      ]
+    },
+    {
+      "top": "MAC_top_fp",
+      "returncode": 0,
+      "success": true,
+      "command": [
+        "C:\\Users\\NUOJIN~1\\AppData\\Local\\Temp\\tsn_fp_tools_20261028\\bin\\iverilog.exe",
+        "-g2012",
+        "-s",
+        "MAC_top_fp",
+        "-o",
+        "C:\\Users\\NUOJIN~1\\AppData\\Local\\Temp\\tsn_fp_regression_20261028i\\native_MAC_top_fp.vvp",
+        "-f",
+        "rtl/verilog/frame_preemption/fp_sim.f"
+      ]
+    }
+  ]
+}

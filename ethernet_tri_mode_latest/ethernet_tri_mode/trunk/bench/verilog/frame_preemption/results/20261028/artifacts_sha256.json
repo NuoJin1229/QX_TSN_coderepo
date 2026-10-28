@@ -1,0 +1,21 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "files in this directory except this manifest itself",
+  "sha256": {
+    "commands.log": "0309022cf1287c7c1d2b07044995f3db7ee114dbe06bc0460040b3660d49e4e9",
+    "edge.mem": "2bfff7e8b779e8afe224b74cd8b880ab614eb65e757f1237389a36282df87f89",
+    "edge.trace": "f87fe20e6f5fdb911aefa3b1ff6999058c624a20b5cd9fad14e83d5e0058810a",
+    "native_filelist_check.json": "a99b0a9ac3373b92cd677f9701fa66cbb76e7c0bb9a8668467bfad969c7505a1",
+    "native_filelist_compile.txt": "558b922d53856568a663ded3111d50bedea1180c6f17d2c2160f6cda9328fa29",
+    "report.json": "5ca9326643e39a2aba098e8e52947db45b9ae3570a24c3dd8b0a99c8c69177cd",
+    "rx.mem": "c6a401b43dd6d5ad76bb6b3f76e6046f9609590abdbba25276bc640f2df247fa",
+    "rx.trace": "925a85d54c4b1c9de21f6e434b70446bf8a4812f71246afa0d3c31f39cc9bcdf",
+    "source_manifest.json": "d66e5b59083eaff5f0ad375af8c8d1189d75ab808e958b5fae17b7bf8ecfc054",
+    "SUMMARY.md": "1df4d735970bd744d4877f951dd394b6e61178c5ffefdcba47cbe0693c6898da",
+    "top.mem": "d91d390f8665f856807c2192789211e3a3bfeb5eb5a969482d3ad1df332b9efe",
+    "top.trace": "cabdf57b7acd3e5d1945ce9655a1a50360da0b5a3c4fb3edb3e163af0abe910c",
+    "top_wire.trace": "f0b585e252e8a4282e39e8a9c98aa16f5d561a7ace0d3178e9ec655510e3f524",
+    "tx.mem": "324bf33317a1c6328c7a8dc600c0ce615e2f97ca3567a1f95d008662b2518875",
+    "tx.trace": "b28f0c52be7995bc8af359a4bd85d14428e3c738d9bf48bc64741c43447af036"
+  }
+}

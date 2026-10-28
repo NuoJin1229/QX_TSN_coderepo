@@ -1,0 +1,118 @@
+{
+  "tx": {
+    "frames": 26,
+    "wire_packets": 37,
+    "non_final_fragments": 11,
+    "frame_numbers": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1,
+      2,
+      3,
+      0,
+      1,
+      2,
+      3,
+      0
+    ],
+    "non_final_data_lengths": [
+      60,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      124,
+      188,
+      252
+    ],
+    "minimum_ifg": 12,
+    "overtake_checks": 12
+  },
+  "edges": {
+    "frames": 10,
+    "wire_packets": 14,
+    "non_final_fragments": 4,
+    "frame_numbers": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1,
+      2,
+      3,
+      0,
+      1
+    ],
+    "non_final_data_lengths": [
+      60,
+      124,
+      188,
+      252
+    ],
+    "minimum_ifg": 198,
+    "overtake_checks": 0,
+    "boundary_lengths": [
+      123,
+      124,
+      187,
+      188,
+      251,
+      252,
+      315,
+      316
+    ],
+    "link_loss_partial_input": "passed",
+    "reset_in_tx_data": "passed"
+  },
+  "rx": {
+    "committed_frames": 73,
+    "express": 67,
+    "preemptable": 6,
+    "stimulus_cycles": 32094
+  },
+  "elaboration": [
+    "MAC_top",
+    "MAC_top_fp"
+  ],
+  "top_wire": {
+    "frames": 5,
+    "wire_packets": 6,
+    "non_final_fragments": 1,
+    "frame_numbers": [
+      0,
+      1
+    ],
+    "non_final_data_lengths": [
+      123
+    ],
+    "minimum_ifg": 12,
+    "overtake_checks": 1
+  },
+  "top": {
+    "received_frames": 5,
+    "payload_lengths": [
+      61,
+      996,
+      62,
+      63,
+      60
+    ],
+    "first_word_priority_lock": "passed with priority changed on every later word",
+    "express_overtake_wire_and_user": "passed",
+    "clocks_ns": {
+      "tx": 8,
+      "user": 10,
+      "reg": 14,
+      "rx": 8
+    },
+    "rx_phase_offset_ns": 2,
+    "ram_model": "verification-only synchronous one-cycle read RAM"
+  }
+}

@@ -8,6 +8,7 @@
 
 # Simulation outputs (keep original scripts, vectors and bundled libraries)
 *.log
+!/ethernet_tri_mode_latest/ethernet_tri_mode/trunk/bench/verilog/frame_preemption/results/20261028/commands.log
 *.vcd
 *.vpd
 *.fsdb
