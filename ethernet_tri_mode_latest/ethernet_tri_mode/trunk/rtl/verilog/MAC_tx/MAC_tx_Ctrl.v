@@ -53,7 +53,8 @@
 // no message
 //                                           
 
-module MAC_tx_ctrl (  
+module MAC_tx_ctrl #(parameter FRAME_GRANT_ENABLE = 0) (
+frame_grant,  
 Reset               ,
 Clk                 ,
 //CRC_gen Interface  
@@ -106,6 +107,7 @@ MaxRetry            ,
 IFGset          
 );
 
+input           frame_grant         ;
 input           Reset               ;
 input           Clk                 ;
                 //CRC_gen Interface 
