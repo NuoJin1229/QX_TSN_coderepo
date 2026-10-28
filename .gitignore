@@ -1,0 +1,25 @@
+# Local reference material and duplicate workspace archive
+/HPM6E00UMV08.pdf
+/ethernet_tri_mode_latest.tar.gz
+
+# Generated analysis and downloaded research material
+/_analysis/
+/.qbu_*
+
+# Simulation outputs (keep original scripts, vectors and bundled libraries)
+*.log
+*.vcd
+*.vpd
+*.fsdb
+*.wlf
+simv
+simv.daidir/
+csrc/
+work/
+INCA_libs/
+
+# Editor and operating-system files
+/.vscode/
+/.idea/
+Thumbs.db
+.DS_Store
