@@ -251,20 +251,26 @@ fp_merge_tx #(.MAX_FRAME_BYTES(FP_MAX_FRAME_BYTES)) u_fp_tx (
     .gmii_txd(MTxD), .gmii_tx_en(MTxEn), .tx_active(fp_tx_active), .busy(fp_tx_busy),
     .tx_e_frames(fp_tx_e_frames), .tx_p_frames(fp_tx_p_frames),
     .tx_fragments(fp_tx_fragments), .tx_input_errors(fp_tx_errors));
-assign fp_rx_e_frames = 0;
-assign fp_rx_p_frames = 0;
-assign fp_rx_fragments = 0;
-assign fp_rx_errors = 0;
-assign fp_rx_overruns = 0;
+fp_merge_rx #(.MAX_FRAME_BYTES(FP_MAX_FRAME_BYTES)) u_fp_rx (
+    .clk(MAC_rx_clk_div), .rst(fp_data_reset), .link_up(fp_link_up), .pmac_enable(fp_pmac_enable),
+    .gmii_rxd(MRxD), .gmii_rx_dv(MCrs_dv), .gmii_rx_er(MRxErr),
+    .out_data(fp_rx_data), .out_valid(fp_rx_valid), .out_sop(), .out_last(fp_rx_last),
+    .out_preemptable(), .out_ready(fp_rx_ready), .busy(fp_rx_busy),
+    .rx_e_frames(fp_rx_e_frames), .rx_p_frames(fp_rx_p_frames), .rx_fragments(fp_rx_fragments),
+    .rx_errors(fp_rx_errors), .rx_overruns(fp_rx_overruns));
+fp_rx_replay u_fp_replay (
+    .clk(MAC_rx_clk_div), .rst(fp_data_reset), .in_data(fp_rx_data),
+    .in_valid(fp_rx_valid), .in_last(fp_rx_last), .in_ready(fp_rx_ready),
+    .mac_data(fp_rx_replayed), .mac_dv(fp_rx_dv));
 
 MAC_rx U_MAC_rx(
 .Reset                      (fp_data_reset              ),    
 .Clk_user                   (Clk_user                   ), 
 .Clk                        (MAC_rx_clk_div             ), 
  //RMII interface           (//PHY interface            ),  
-.MCrs_dv                    (MCrs_dv                    ),        
-.MRxD                       (MRxD                       ),
-.MRxErr                     (MRxErr                     ),
+.MCrs_dv                    (fp_rx_dv                   ),        
+.MRxD                       (fp_rx_replayed             ),
+.MRxErr                     (1'b0                       ),
  //flow_control signals     (//flow_control signals     ),  
 .pause_quanta               (pause_quanta               ),
 .pause_quanta_val           (pause_quanta_val           ),
