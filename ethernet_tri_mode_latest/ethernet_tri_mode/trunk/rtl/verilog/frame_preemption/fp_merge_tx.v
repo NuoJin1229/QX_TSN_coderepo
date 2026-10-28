@@ -98,6 +98,8 @@ module fp_merge_tx #(
                             min_data <= 16'd60 + {8'b0,add_frag_size,6'b0};
                             continuation <= 0; frag_no <= 0; pre_left <= 7;
                             p_started <= 1;
+                        end else begin
+                            pos <= p_pos; continuation <= 1; pre_left <= 6;
                         end
                         state <= PREAMBLE;
                     end
@@ -110,8 +112,12 @@ module fp_merge_tx #(
                 DELIM: begin
                     gmii_tx_en <= 1;
                     gmii_txd <= !selected_p || !p_encoded ? 8'hd5 :
-                                fp_smd_start(frame_no);
-                    state <= DATA;
+                                continuation ? fp_smd_cont(frame_no) : fp_smd_start(frame_no);
+                    state <= selected_p && continuation ? FRAG_COUNT : DATA;
+                end
+                FRAG_COUNT: begin
+                    gmii_tx_en <= 1; gmii_txd <= fp_smd_start(frag_no);
+                    frag_no <= frag_no + 1'b1; state <= DATA;
                 end
                 DATA: begin
                     gmii_tx_en <= 1;
@@ -125,9 +131,22 @@ module fp_merge_tx #(
                             if (p_encoded) frame_no <= frame_no + 1'b1;
                             tx_p_frames <= tx_p_frames + 1'b1;
                             gap_left <= 10; state <= IFG;
+                        end else if (cut_allowed) begin
+                            // Cumulative CRC context remains at the original-frame prefix.
+                            // Wire bytes of mCRC: FCS[0],FCS[1],~FCS[2],~FCS[3].
+                            mcrc <= (~p_crc_next) ^ 32'hffff0000;
+                            p_pos <= next_pos; crc_byte <= 0; state <= MCRC;
                         end
                     end else if (next_pos == e_len) begin
                         e_full <= 0; tx_e_frames <= tx_e_frames + 1'b1;
+                        gap_left <= 10; state <= IFG;
+                    end
+                end
+                MCRC: begin
+                    gmii_tx_en <= 1; gmii_txd <= mcrc[7:0]; mcrc <= mcrc >> 8;
+                    crc_byte <= crc_byte + 1'b1;
+                    if (crc_byte == 3) begin
+                        tx_fragments <= tx_fragments + 1'b1;
                         gap_left <= 10; state <= IFG;
                     end
                 end
