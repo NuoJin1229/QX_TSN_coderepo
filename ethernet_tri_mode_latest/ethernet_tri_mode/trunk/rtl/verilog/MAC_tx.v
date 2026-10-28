@@ -49,7 +49,7 @@
 // Revision 1.1.1.1  2005/12/13 01:51:44  Administrator
 // no message
 //   
-module MAC_tx(
+module MAC_tx #(parameter FRAME_GRANT_ENABLE = 0)(
 input           Reset               ,
 input           Clk                 ,
 input           Clk_user            ,
@@ -86,7 +86,8 @@ input           xoff_cpu            ,
 input           xon_cpu             ,
                 //MAC_rx_flow       ,
 input   [15:0]  pause_quanta        ,   
-input           pause_quanta_val       
+input           pause_quanta_val,
+input           frame_grant            
 );
 //******************************************************************************        
 //internal signals                                                              
@@ -127,7 +128,8 @@ wire[7:0]       MAC_tx_addr_data    ;
 //******************************************************************************        
 //instantiation                                                              
 //****************************************************************************** 
-MAC_tx_ctrl U_MAC_tx_ctrl(
+MAC_tx_ctrl #(.FRAME_GRANT_ENABLE(FRAME_GRANT_ENABLE)) U_MAC_tx_ctrl(
+.frame_grant              (frame_grant            ),
 .Reset                    (Reset                  ),                    
 .Clk                      (Clk                    ),            
  //CRC_gen Interface      (//CRC_gen Interface    ),           
