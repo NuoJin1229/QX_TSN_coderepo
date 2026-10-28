@@ -27,7 +27,12 @@ module fp_rx_replay (
                     mac_dv <= in_valid; mac_data <= in_data;
                     if (in_valid && in_last) begin state <= GAP; count <= 11; end
                 end
-                GAP: if (count == 0) state <= IDLE; else count <= count - 1'b1;
+                GAP: if (count == 0) begin
+                    // Twelve idle bytes, with no extra IDLE selection bubble
+                    // when another committed frame is already waiting.
+                    if (in_valid) begin state <= PRE; count <= 7; end
+                    else state <= IDLE;
+                end else count <= count - 1'b1;
                 default: state <= IDLE;
             endcase
         end
