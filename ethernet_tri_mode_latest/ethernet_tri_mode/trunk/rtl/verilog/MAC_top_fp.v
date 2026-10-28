@@ -213,7 +213,9 @@ reg             rx_pkg_lgth_fifo_wr;
 assign fp_supported = Speed == 3'b100 && FullDuplex;
 wire fp_data_reset = Reset || !fp_link_up || !fp_supported;
 wire fp_tx_reset;
+wire fp_rx_reset;
 fp_reset_sync u_fp_tx_reset (.clk(MAC_tx_clk_div), .async_reset(fp_data_reset), .reset_out(fp_tx_reset));
+fp_reset_sync u_fp_rx_reset (.clk(MAC_rx_clk_div), .async_reset(fp_data_reset), .reset_out(fp_rx_reset));
 reg fp_user_in_frame, fp_user_route;
 wire fp_route = fp_user_in_frame ? fp_user_route : fp_preemptable_mask[Tx_mac_priority];
 wire fp_e_wa, fp_p_wa;
@@ -254,14 +256,14 @@ fp_merge_tx #(.MAX_FRAME_BYTES(FP_MAX_FRAME_BYTES)) u_fp_tx (
     .tx_e_frames(fp_tx_e_frames), .tx_p_frames(fp_tx_p_frames),
     .tx_fragments(fp_tx_fragments), .tx_input_errors(fp_tx_errors));
 fp_merge_rx #(.MAX_FRAME_BYTES(FP_MAX_FRAME_BYTES)) u_fp_rx (
-    .clk(MAC_rx_clk_div), .rst(fp_data_reset), .link_up(fp_link_up), .pmac_enable(fp_pmac_enable),
+    .clk(MAC_rx_clk_div), .rst(fp_rx_reset), .link_up(fp_link_up), .pmac_enable(fp_pmac_enable),
     .gmii_rxd(MRxD), .gmii_rx_dv(MCrs_dv), .gmii_rx_er(MRxErr),
     .out_data(fp_rx_data), .out_valid(fp_rx_valid), .out_sop(), .out_last(fp_rx_last),
     .out_preemptable(), .out_ready(fp_rx_ready), .busy(fp_rx_busy),
     .rx_e_frames(fp_rx_e_frames), .rx_p_frames(fp_rx_p_frames), .rx_fragments(fp_rx_fragments),
     .rx_errors(fp_rx_errors), .rx_overruns(fp_rx_overruns));
 fp_rx_replay u_fp_replay (
-    .clk(MAC_rx_clk_div), .rst(fp_data_reset), .in_data(fp_rx_data),
+    .clk(MAC_rx_clk_div), .rst(fp_rx_reset), .in_data(fp_rx_data),
     .in_valid(fp_rx_valid), .in_last(fp_rx_last), .in_ready(fp_rx_ready),
     .mac_data(fp_rx_replayed), .mac_dv(fp_rx_dv));
 
