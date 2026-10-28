@@ -212,6 +212,8 @@ reg             rx_pkg_lgth_fifo_wr;
 
 assign fp_supported = Speed == 3'b100 && FullDuplex;
 wire fp_data_reset = Reset || !fp_link_up || !fp_supported;
+wire fp_tx_reset;
+fp_reset_sync u_fp_tx_reset (.clk(MAC_tx_clk_div), .async_reset(fp_data_reset), .reset_out(fp_tx_reset));
 reg fp_user_in_frame, fp_user_route;
 wire fp_route = fp_user_in_frame ? fp_user_route : fp_preemptable_mask[Tx_mac_priority];
 wire fp_e_wa, fp_p_wa;
@@ -230,20 +232,20 @@ wire fp_e_ready, fp_p_ready;
 wire [7:0] fp_rx_data, fp_rx_replayed;
 wire fp_rx_valid, fp_rx_last, fp_rx_ready, fp_rx_dv;
 wire fp_tx_busy, fp_rx_busy;
-reg [1:0] fp_hold_sync;
-always @(posedge MAC_tx_clk_div or posedge fp_data_reset)
-    if (fp_data_reset) fp_hold_sync <= 0;
+(* ASYNC_REG = "TRUE" *) reg [1:0] fp_hold_sync;
+always @(posedge MAC_tx_clk_div or posedge fp_tx_reset)
+    if (fp_tx_reset) fp_hold_sync <= 0;
     else fp_hold_sync <= {fp_hold_sync[0], fp_hold_req};
 fp_mac_capture u_fp_e_capture (
-    .clk(MAC_tx_clk_div), .rst(fp_data_reset), .mac_data(fp_e_raw_data), .mac_en(fp_e_raw_en),
+    .clk(MAC_tx_clk_div), .rst(fp_tx_reset), .mac_data(fp_e_raw_data), .mac_en(fp_e_raw_en),
     .frame_grant(fp_e_grant), .out_data(fp_e_data), .out_valid(fp_e_valid),
     .out_last(fp_e_last), .out_abort(fp_e_abort), .out_ready(fp_e_ready));
 fp_mac_capture u_fp_p_capture (
-    .clk(MAC_tx_clk_div), .rst(fp_data_reset), .mac_data(fp_p_raw_data), .mac_en(fp_p_raw_en),
+    .clk(MAC_tx_clk_div), .rst(fp_tx_reset), .mac_data(fp_p_raw_data), .mac_en(fp_p_raw_en),
     .frame_grant(fp_p_grant), .out_data(fp_p_data), .out_valid(fp_p_valid),
     .out_last(fp_p_last), .out_abort(fp_p_abort), .out_ready(fp_p_ready));
 fp_merge_tx #(.MAX_FRAME_BYTES(FP_MAX_FRAME_BYTES)) u_fp_tx (
-    .clk(MAC_tx_clk_div), .rst(fp_data_reset), .link_up(fp_link_up),
+    .clk(MAC_tx_clk_div), .rst(fp_tx_reset), .link_up(fp_link_up),
     .tx_enable(fp_tx_enable), .force_mode(fp_force_mode), .hold_req(fp_hold_sync[1]),
     .add_frag_size(fp_add_frag_size),
     .e_data(fp_e_data), .e_valid(fp_e_valid), .e_last(fp_e_last), .e_abort(fp_e_abort), .e_ready(fp_e_ready),
