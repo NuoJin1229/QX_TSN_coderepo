@@ -103,11 +103,20 @@ module fp_merge_rx #(
                                 if (p_full) begin
                                     packet_bad <= 1; rx_overruns <= rx_overruns + 1'b1;
                                 end
+                            end else if (cont_symbol[2] && pre_count == 6 && pmac_enable &&
+                                         p_pending && cont_symbol[1:0] == frame_no && !p_full) begin
+                                packet_p <= 1; work_len <= saved_len;
+                                work_crc <= saved_crc; state <= FC;
                             end else begin
                                 state <= DROP; packet_bad <= 1;
                                 // Unknown/missing SMD cannot safely retain a partial context.
                                 p_pending <= 0;
                             end
+                        end
+                        FC: begin
+                            if (start_symbol[2] && start_symbol[1:0] == expected_frag) begin
+                                expected_frag <= expected_frag + 1'b1; state <= PAYLOAD;
+                            end else begin state <= DROP; packet_bad <= 1; p_pending <= 0; end
                         end
                         PAYLOAD: begin
                             // Delay four bytes: never include CRC/mCRC in cumulative CRC.
