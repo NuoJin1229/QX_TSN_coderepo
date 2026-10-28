@@ -212,17 +212,19 @@ reg             rx_pkg_lgth_fifo_wr;
 
 assign fp_supported = Speed == 3'b100 && FullDuplex;
 wire fp_data_reset = Reset || !fp_link_up || !fp_supported;
-wire fp_tx_reset;
-wire fp_rx_reset;
+wire fp_tx_reset, fp_rx_reset, fp_user_reset;
+// New Merge-domain logic releases reset only on its own clock. Legacy MAC/FIFO
+// blocks retain their original shared-reset contract; see the integration notes.
 fp_reset_sync u_fp_tx_reset (.clk(MAC_tx_clk_div), .async_reset(fp_data_reset), .reset_out(fp_tx_reset));
 fp_reset_sync u_fp_rx_reset (.clk(MAC_rx_clk_div), .async_reset(fp_data_reset), .reset_out(fp_rx_reset));
+fp_reset_sync u_fp_user_reset (.clk(Clk_user), .async_reset(fp_data_reset), .reset_out(fp_user_reset));
 reg fp_user_in_frame, fp_user_route;
 wire fp_route = fp_user_in_frame ? fp_user_route : fp_preemptable_mask[Tx_mac_priority];
 wire fp_e_wa, fp_p_wa;
 wire fp_accept = Tx_mac_wr && Tx_mac_wa;
-assign Tx_mac_wa = !fp_data_reset && (fp_route ? fp_p_wa : fp_e_wa);
-always @(posedge Clk_user or posedge fp_data_reset)
-    if (fp_data_reset) begin fp_user_in_frame <= 0; fp_user_route <= 0; end
+assign Tx_mac_wa = !fp_user_reset && (fp_route ? fp_p_wa : fp_e_wa);
+always @(posedge Clk_user or posedge fp_user_reset)
+    if (fp_user_reset) begin fp_user_in_frame <= 0; fp_user_route <= 0; end
     else if (fp_accept) begin
         if (!fp_user_in_frame) fp_user_route <= fp_route;
         fp_user_in_frame <= !Tx_mac_eop;
